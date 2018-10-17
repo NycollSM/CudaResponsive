@@ -1,8 +1,12 @@
-
+*{
+    margin: 0;
+    
+}
 .container {
     max-width: 100%;
     font-size: 18px;
     color: white;
+    
     font-family: 'Titillium Web', sans-serif;
 }
 li{
@@ -11,4 +15,7 @@ li{
 a{
     text-decoration: none;
     color: white;
+}
+.bigtxt{
+    text-transform: uppercase;
 }
