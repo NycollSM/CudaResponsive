@@ -1,7 +1,8 @@
 #header{
     padding: 55px;
     height: 540px;
-    background-color: #643a79;  
+    background-color: #643a79; 
+    margin:auto;  
 }
 .menu{
     float: right;
@@ -15,6 +16,8 @@
     text-transform: $may;
 }
 h3 {
+    font-size: 42px;
+    text-align: center;
     margin: 0 auto;
 }
 .button-header{

@@ -1,5 +1,6 @@
 .container {
   max-width: 100%;
+  font-size: 18px;
   color: white;
   font-family: 'Titillium Web', sans-serif; }
 
@@ -13,7 +14,8 @@ a {
 #header {
   padding: 55px;
   height: 540px;
-  background-color: #643a79; }
+  background-color: #643a79;
+  margin: auto; }
 
 .menu {
   float: right; }
@@ -27,6 +29,8 @@ a {
   text-transform: uppercase; }
 
 h3 {
+  font-size: 42px;
+  text-align: center;
   margin: 0 auto; }
 
 .button-header {
@@ -45,14 +49,27 @@ h3 {
   text-align: center; }
 
 #content {
-  height: 350px;
-  background: #17c2a4;
-  margin: 0; }
+  margin: auto;
+  height: 455px;
+  background: #17c2a4; }
+
+.firstelement {
+  text-align: center; }
+
+.bigtxt {
+  font-size: 40px; }
 
 .elements {
+  text-align: center;
   width: 20%;
   float: left;
-  padding: 1%;
-  text-align: center; }
+  margin: 1%; }
+
+.elements img {
+  height: 150px;
+  width: 150px; }
+
+.p {
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=styles.css.map */
