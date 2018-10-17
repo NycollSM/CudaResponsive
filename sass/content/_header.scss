@@ -1,0 +1,30 @@
+#header{
+    padding: 55px;
+    height: 540px;
+    background-color: #643a79;  
+}
+.menu{
+    float: right;
+}
+#header li {
+    position: relative;
+    margin-right: 25px;
+    float: left;
+    padding: 2px;
+    background: #643a79a6;
+    text-transform: $may;
+}
+h3 {
+    margin: 0 auto;
+}
+.button-header{
+    text-transform: $may;
+    @include btn;
+    background: #eb7d4b;
+  
+      
+}
+.txt-btn{
+    margin-top: 10%;
+    text-align: center;
+}
