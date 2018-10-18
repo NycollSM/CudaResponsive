@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    
+    margin: 0;  
 }
 .container {
     max-width: 100%;
@@ -18,4 +17,7 @@ a{
 }
 .bigtxt{
     text-transform: uppercase;
+}
+textarea{
+    border: 0;
 }
