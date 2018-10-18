@@ -1,53 +1,45 @@
-#footer {
+#footer{
     background: #3c5499;
-    //height: 450px;
-}
-#footer p {
     text-align: center;
+}
+.form{
+    margin: 150px; 
+    border: 1px solid wheat;
+    width: 50%;
+    height: 60%; 
+    margin: 0 auto;
+    
+}
+.elementsChildren{
+    margin-right: 150px;
+}
+label {
+    position: relative;
+    text-align: center;
+   margin: 20px;
+}
+textarea{
+    margin: 20px;
+     top: 0;
+    background: #273a71;
+    padding: 10px;
+    max-height: 45px;
+    min-height: 45px;
+    max-width: 250px;
+    min-width: 250px;
+}
+.elementsChildren2{
+    margin-top: 15px; 
+    
+ }
+.last-textarea{
+    min-width: 50%;
+    max-width: 50%;
 }
 .links{
     text-align: center;
-    
-}
-.links a {
-    margin-left:55px; 
-}
-.form{
-    text-align: center;
-    max-width: 50%;
-    min-width: 50%;
-    margin: 0 auto;
-    padding: 50px;
-}
-form {
-    text-align: center;
-    box-sizing: border-box; 
-}
-textarea{
     background: #344b8e;
-    max-height: 53px;
-    min-height: 53px;
-    max-width: 35%;
-    min-width: 35%;
-    float: left;
-    margin: 10px;
-    display: inline-block;
-    box-sizing: border-box;
 }
-.last-textarea{
-    box-sizing: border-box; 
-    margin: 25px;
-    float: none;
-    max-height: 150px;
-    min-height: 150px;
-    max-width: 90%;
-    min-width: 90%;
-}
-label{ 
-    float: left;
-    padding: 1%;
-    display: block;
-}
-.links {
-    background: #344b8e; 
+.links > a {
+    margin-left: 56px;
 }
