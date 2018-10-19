@@ -3,38 +3,27 @@
     text-align: center;
 }
 .form{
-    margin: 150px; 
-    border: 1px solid wheat;
+    margin-top: 150px; 
     width: 50%;
     height: 60%; 
     margin: 0 auto;
-    
 }
 .elementsChildren{
-    margin-right: 150px;
+    margin: 5%;
+    float: left;
 }
-label {
-    position: relative;
-    text-align: center;
-   margin: 20px;
+label{
+    top: 0;
+   //margin-right: 50px;
 }
 textarea{
-    margin: 20px;
-     top: 0;
     background: #273a71;
     padding: 10px;
-    max-height: 45px;
-    min-height: 45px;
-    max-width: 250px;
-    min-width: 250px;
+     
 }
-.elementsChildren2{
-    margin-top: 15px; 
-    
- }
-.last-textarea{
-    min-width: 50%;
-    max-width: 50%;
+.button2{
+    background: #07acc2;
+    border-bottom: #068b9c 4px solid;
 }
 .links{
     text-align: center;
