@@ -31,11 +31,13 @@ textarea {
 
 #header li {
   position: relative;
-  margin-right: 25px;
   float: left;
-  padding: 2px;
-  background: #643a79a6;
+  padding: 10px;
   text-transform: uppercase; }
+
+li:hover {
+  background: #7805b1;
+  border-radius: 3px; }
 
 h3 {
   font-size: 42px;
@@ -55,6 +57,8 @@ h3 {
   border: 0;
   background: #eb7d4b;
   border-bottom: 4px solid #c05c2d; }
+  .buttons:hover {
+    background: #ff8952; }
 
 .txt-btn {
   margin-top: 10%;
@@ -111,6 +115,8 @@ textarea {
 .button2 {
   background: #07acc2;
   border-bottom: #068b9c 4px solid; }
+  .button2:hover {
+    background: #0bbcd3; }
 
 .links {
   text-align: center;
