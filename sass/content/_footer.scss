@@ -3,7 +3,7 @@
     text-align: center;
 }
 .form{
-     margin: 150px; 
+    margin: 150px;
     width: 50%;
     height: 60%; 
     margin: 0 auto;
@@ -17,11 +17,13 @@
 
 }
 .elementsChildren{
-    margin: 5%;
-    float: left;
+    
+    float: right;
+    position: relative;
 }
 label{
     top: 0;
+    margin: 4px;
 }
 textarea{
     background: #273a71;
@@ -33,14 +35,9 @@ textarea{
 }
 .elementsChildren2{
     margin-top: 15px; 
+    position: relative;
     
  }
-.last-textarea{
-    min-width: 70%;
-    max-width: 70%;
-
-     
-}
 .button2{
     background: #07acc2;
     border-bottom: #068b9c 4px solid;
