@@ -4,10 +4,10 @@
 }
 .form{
     margin: 150px; 
-    border: 1px solid wheat;
     width: 50%;
     height: 60%; 
     margin: 0 auto;
+    padding-top: 50px;
     
 }
 .elementsChildren{
@@ -19,22 +19,21 @@ label {
    margin: 20px;
 }
 textarea{
-    margin: 20px;
-     top: 0;
     background: #273a71;
     padding: 10px;
-    max-height: 45px;
-    min-height: 45px;
-    max-width: 250px;
-    min-width: 250px;
+    max-height: 40px;
+    min-height: 40px;
+    max-width: 60%;
+    min-width: 60%;
+    
 }
 .elementsChildren2{
     margin-top: 15px; 
     
  }
 .last-textarea{
-    min-width: 50%;
-    max-width: 50%;
+    min-width: 70%;
+    max-width: 70%;
 }
 .links{
     text-align: center;
