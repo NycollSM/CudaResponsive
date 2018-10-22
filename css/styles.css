@@ -31,11 +31,13 @@ textarea {
 
 #header li {
   position: relative;
-  margin-right: 25px;
   float: left;
-  padding: 2px;
-  background: #643a79a6;
+  padding: 10px;
   text-transform: uppercase; }
+
+li:hover {
+  background: #7805b1;
+  border-radius: 3px; }
 
 h3 {
   font-size: 42px;
@@ -53,7 +55,10 @@ h3 {
   color: white;
   font-size: 25px;
   border: 0;
-  background: #eb7d4b; }
+  background: #eb7d4b;
+  border-bottom: 4px solid #c05c2d; }
+  .buttons:hover {
+    background: #ff8952; }
 
 .txt-btn {
   margin-top: 10%;
@@ -95,15 +100,18 @@ h4 {
   width: 50%;
   height: 60%;
   margin: 0 auto;
-  padding-top: 50px; }
+  padding-top: 50px;
+  margin-top: 150px;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto; }
 
 .elementsChildren {
-  margin-right: 150px; }
+  margin: 5%;
+  float: left; }
 
 label {
-  position: relative;
-  text-align: center;
-  margin: 20px; }
+  top: 0; }
 
 textarea {
   background: #273a71;
@@ -119,6 +127,12 @@ textarea {
 .last-textarea {
   min-width: 70%;
   max-width: 70%; }
+
+.button2 {
+  background: #07acc2;
+  border-bottom: #068b9c 4px solid; }
+  .button2:hover {
+    background: #0bbcd3; }
 
 .links {
   text-align: center;

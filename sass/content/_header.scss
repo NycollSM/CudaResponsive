@@ -9,11 +9,14 @@
 }
 #header li {
     position: relative;
-    margin-right: 25px;
+   // margin-right: 25px;
     float: left;
-    padding: 2px;
-    background: #643a79a6;
+    padding: 10px;
     text-transform: $may;
+}
+li:hover{
+    background: #7805b1;
+    border-radius: 3px;
 }
 h3 {
     font-size: 42px;
@@ -24,7 +27,10 @@ h3 {
     text-transform: $may;
     @include btn;
     background: #eb7d4b;
-  
+    border-bottom: 4px solid #c05c2d;
+    &:hover{
+        background: #ff8952;
+    }
       
 }
 .txt-btn{

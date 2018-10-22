@@ -3,20 +3,25 @@
     text-align: center;
 }
 .form{
-    margin: 150px; 
+     margin: 150px; 
     width: 50%;
     height: 60%; 
     margin: 0 auto;
     padding-top: 50px;
     
+
+    margin-top: 150px; 
+    width: 50%;
+    height: 60%; 
+    margin: 0 auto;
+
 }
 .elementsChildren{
-    margin-right: 150px;
+    margin: 5%;
+    float: left;
 }
-label {
-    position: relative;
-    text-align: center;
-   margin: 20px;
+label{
+    top: 0;
 }
 textarea{
     background: #273a71;
@@ -25,7 +30,6 @@ textarea{
     min-height: 40px;
     max-width: 60%;
     min-width: 60%;
-    
 }
 .elementsChildren2{
     margin-top: 15px; 
@@ -34,6 +38,15 @@ textarea{
 .last-textarea{
     min-width: 70%;
     max-width: 70%;
+
+     
+}
+.button2{
+    background: #07acc2;
+    border-bottom: #068b9c 4px solid;
+    &:hover{
+        background: #0bbcd3;
+    }
 }
 .links{
     text-align: center;
