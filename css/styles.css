@@ -23,7 +23,7 @@ textarea {
 #header {
   padding: 55px;
   height: 540px;
-  background-color: #643a79;
+  background-color: #86509c;
   margin: auto; }
 
 .menu {
@@ -36,7 +36,7 @@ textarea {
   text-transform: uppercase; }
 
 li:hover {
-  background: #7805b1;
+  background: #9925d3;
   border-radius: 3px; }
 
 h3 {
@@ -65,7 +65,7 @@ h3 {
   text-align: center; }
 
 #content {
-  margin: auto;
+  margin: 0 auto;
   height: 455px;
   background: #17c2a4; }
 
@@ -97,7 +97,6 @@ h4 {
 
 .form {
   margin: 150px;
-  width: 50%;
   height: 60%;
   margin: 0 auto;
   padding-top: 50px;
@@ -158,5 +157,25 @@ textarea {
 
   .form {
     padding-top: 50px; } }
+@media (max-width: 768px) {
+  h3 {
+    font-size: 32px; }
+
+  #content {
+    height: 500px; }
+
+  .elements img {
+    height: 125px;
+    width: 100px; }
+
+  .form {
+    float: none; }
+
+  textarea {
+    max-height: 60px;
+    min-height: 60px; }
+
+  .links > a {
+    margin-left: 40px; } }
 
 /*# sourceMappingURL=styles.css.map */
