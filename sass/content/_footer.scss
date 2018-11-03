@@ -1,38 +1,40 @@
 #footer{
     background: #3c5499;
     text-align: center;
+    height: auto;
 }
 .form{
     margin: 150px;
-    height: 60%; 
     margin: 0 auto;
-    padding-top: 50px;
-    margin-top: 150px; 
-    width: 50%;
-    height: 60%; 
-    margin: 0 auto;
-}
-.elementsChildren{
-    float: right;
-    position: relative;
+    margin-top: 50px;
 }
 label{
-    top: 0;
     margin: 4px;
+    float: left;
 }
-textarea{
+input{
     background: #273a71;
     padding: 10px;
-    max-height: 40px;
-    min-height: 40px;
-    max-width: 60%;
-    min-width: 60%;
+    height: 25px;
+    width: 200px;
+    border: 0px solid;
+    margin-top: 15px;
+    float: left;
+}
+.elementsChildren{
+    margin: 0 auto;
+    
 }
 .elementsChildren2{
     margin-top: 15px; 
-    position: relative;
-    
- }
+    text-align: center;    
+}
+textarea{
+    background: #273a71;
+    margin-top: 15px;
+    height: 100px;
+    width: 300px;
+}
 .button2{
     background: #07acc2;
     border-bottom: #068b9c 4px solid;
@@ -45,5 +47,5 @@ textarea{
     background: #344b8e;
 }
 .links > a {
-    margin-left: 56px;
+    margin-left: 55px;
 }
