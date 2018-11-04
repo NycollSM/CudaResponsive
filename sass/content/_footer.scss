@@ -2,6 +2,7 @@
     background: #3c5499;
     text-align: center;
     height: auto;
+    padding: 55px;
 }
 .form{
     margin: 150px;
@@ -9,31 +10,38 @@
     margin-top: 50px;
 }
 label{
-    margin: 4px;
-    float: left;
+    margin: 50px;
+    margin-left: 0;
 }
 input{
     background: #273a71;
     padding: 10px;
     height: 25px;
-    width: 200px;
+    width: 80%;
     border: 0px solid;
     margin-top: 15px;
     float: left;
+
 }
-.elementsChildren{
+.elementsForm{
     margin: 0 auto;
-    
+    width: 49%;
+    float: left;
+    margin-bottom: 50px;
 }
-.elementsChildren2{
-    margin-top: 15px; 
-    text-align: center;    
+.elementsForm2{
+    margin: 0 auto;
+    margin-top: 50px; 
+    text-align: center;  
+}
+.elementsForm2 > div{
+ float: left;
 }
 textarea{
     background: #273a71;
     margin-top: 15px;
     height: 100px;
-    width: 300px;
+    width: 80%;
 }
 .button2{
     background: #07acc2;
