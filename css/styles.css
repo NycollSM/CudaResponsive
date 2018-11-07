@@ -9,8 +9,24 @@
 * {
   margin: 0; }
 
+.bg-color-purple {
+  background-color: #86509c;
+  width: 100%; }
+
+.bg-color-green {
+  background: #17c2a4;
+  width: 100%; }
+
+.bg-color-blue {
+  background: #3c5499;
+  width: 100%; }
+
+.bg-color-darkblue {
+  background: #344b8e;
+  width: 100%; }
+
 .container {
-  max-width: 1100px;
+  width: 1100px;
   font-size: 18px;
   color: white;
   margin: 0 auto;
@@ -30,9 +46,7 @@ textarea {
   border: 0; }
 
 #header {
-  padding: 55px;
-  background-color: #86509c;
-  margin: auto; }
+  padding: 55px; }
 
 .menu {
   float: right; }
@@ -44,7 +58,7 @@ textarea {
   text-transform: uppercase; }
 
 li:hover {
-  background: #9925d3;
+  background: #550a7a;
   border-radius: 3px; }
 
 h3 {
@@ -75,8 +89,7 @@ h3 {
 #content {
   margin: 0 auto;
   height: 455px;
-  padding: 55px;
-  background: #17c2a4; }
+  padding: 55px; }
 
 .firstelement {
   text-align: center;
@@ -101,7 +114,6 @@ h4 {
   text-transform: uppercase; }
 
 #footer {
-  background: #3c5499;
   text-align: center;
   height: auto;
   padding: 55px; }
@@ -135,14 +147,16 @@ input {
   margin-top: 50px;
   text-align: center; }
 
-.elementsForm2 > div {
+.label {
   float: left; }
 
 textarea {
+  margin: 0 auto;
   background: #273a71;
-  margin-top: 15px;
+  margin-top: 35px;
   height: 100px;
-  width: 80%; }
+  width: 100%;
+  resize: none; }
 
 .button2 {
   background: #07acc2;
@@ -151,8 +165,7 @@ textarea {
     background: #0bbcd3; }
 
 .links {
-  text-align: center;
-  background: #344b8e; }
+  text-align: center; }
 
 .links > a {
   margin-left: 55px; }

@@ -1,5 +1,4 @@
 #footer{
-    background: #3c5499;
     text-align: center;
     height: auto;
     padding: 55px;
@@ -34,14 +33,16 @@ input{
     margin-top: 50px; 
     text-align: center;  
 }
-.elementsForm2 > div{
- float: left;
+.label{
+    float: left; 
 }
 textarea{
+    margin: 0 auto;
     background: #273a71;
-    margin-top: 15px;
+    margin-top: 35px;
     height: 100px;
-    width: 80%;
+    width: 100%;
+    resize: none;
 }
 .button2{
     background: #07acc2;
@@ -51,8 +52,7 @@ textarea{
     }
 }
 .links{
-    text-align: center;
-    background: #344b8e;
+    text-align: center; 
 }
 .links > a {
     margin-left: 55px;

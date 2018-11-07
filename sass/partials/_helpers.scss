@@ -1,8 +1,24 @@
 *{
     margin: 0;  
 }
+.bg-color-purple{
+    background-color: #86509c; 
+    width: 100%;
+}
+.bg-color-green{
+    background: #17c2a4;
+    width: 100%;
+}
+.bg-color-blue{
+    background: #3c5499;
+    width: 100%;
+}
+.bg-color-darkblue{
+    background: #344b8e;
+    width: 100%;
+}
 .container {
-    max-width: 1100px;
+    width: 1100px;
     font-size: 18px;
     color: white;
     margin: 0 auto;
