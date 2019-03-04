@@ -1,0 +1,25 @@
+@media (max-width:576px){
+    .menu{
+        display: none;
+    }
+    .menu :first-child{
+        display: block;
+    }
+    #content{
+        height: 650px;
+    }
+    .elements{
+        width: 40%;
+        float: left;
+        margin-left: 10px;
+        text-align: center; 
+    }
+    button{
+        height: 50px;
+        margin: 25px;
+        padding: 10px;
+        width: 225px;
+        text-align: center;
+    }
+    
+}

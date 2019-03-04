@@ -1,29 +1,27 @@
 #content{
-    margin: auto;
+    margin: 0 auto;
     height: 455px;
-    background: #17c2a4;
-    
+    padding: 55px; 
 }
 .firstelement{
     text-align: center;
+    padding-top: 25px;
 }
 .bigtxt{
-    font-size: 40px;
-    
+    font-size: 40px;   
 }
 .elements{
     margin-left: 150px;
-    text-align: center;
-    width: 20%;
+    margin: 0 auto;
+    width: 25%;
     float: left;
-    margin: 1%;
-   
+    text-align: center;
 }
 .elements img {
     height: 150px;
     width: 150px;
 }
-.p {
+h4{
     text-align: center;
     text-transform: $may;
 }

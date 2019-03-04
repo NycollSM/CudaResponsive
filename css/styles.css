@@ -1,10 +1,35 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
 * {
   margin: 0; }
 
+.bg-color-purple {
+  background-color: #86509c;
+  width: 100%; }
+
+.bg-color-green {
+  background: #17c2a4;
+  width: 100%; }
+
+.bg-color-blue {
+  background: #3c5499;
+  width: 100%; }
+
+.bg-color-darkblue {
+  background: #344b8e;
+  width: 100%; }
+
 .container {
-  max-width: 100%;
+  width: 1100px;
   font-size: 18px;
   color: white;
+  margin: 0 auto;
   font-family: 'Titillium Web', sans-serif; }
 
 li {
@@ -17,74 +42,194 @@ a {
 .bigtxt {
   text-transform: uppercase; }
 
+textarea {
+  border: 0; }
+
 #header {
-  padding: 55px;
-  height: 540px;
-  background-color: #643a79;
-  margin: auto; }
+  padding: 55px; }
 
 .menu {
   float: right; }
 
 #header li {
   position: relative;
-  margin-right: 25px;
   float: left;
-  padding: 2px;
-  background: #643a79a6;
+  padding: 10px;
   text-transform: uppercase; }
+
+li:hover {
+  background: #550a7a;
+  border-radius: 3px; }
 
 h3 {
   font-size: 42px;
   text-align: center;
   margin: 0 auto; }
 
-.button-header {
+.buttons {
   text-transform: uppercase;
   text-transform: uppercase;
-  height: 70px;
+  height: 50px;
+  margin: 50px;
   padding: 10px;
-  width: 295px;
+  width: 250px;
   border-radius: 5px;
   color: white;
-  font-size: 35px;
-  background: #eb7d4b; }
+  font-size: 25px;
+  border: 0;
+  background: #eb7d4b;
+  border-bottom: 4px solid #c05c2d; }
+  .buttons:hover {
+    background: #ff8952; }
 
 .txt-btn {
   margin-top: 10%;
   text-align: center; }
 
 #content {
-  margin: auto;
+  margin: 0 auto;
   height: 455px;
-  background: #17c2a4; }
+  padding: 55px; }
 
 .firstelement {
-  text-align: center; }
+  text-align: center;
+  padding-top: 25px; }
 
 .bigtxt {
   font-size: 40px; }
 
 .elements {
   margin-left: 150px;
-  text-align: center;
-  width: 20%;
+  margin: 0 auto;
+  width: 25%;
   float: left;
-  margin: 1%; }
+  text-align: center; }
 
 .elements img {
   height: 150px;
   width: 150px; }
 
-.p {
+h4 {
   text-align: center;
   text-transform: uppercase; }
 
 #footer {
-  background: #3c5499;
-  height: 450px; }
+  text-align: center;
+  height: auto;
+  padding: 55px; }
 
-#footer p {
+.form {
+  margin: 150px;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+label {
+  margin: 50px;
+  margin-left: 0; }
+
+input {
+  background: #273a71;
+  padding: 10px;
+  height: 25px;
+  width: 80%;
+  border: 0px solid;
+  margin-top: 15px;
+  float: left; }
+
+.elementsForm {
+  margin: 0 auto;
+  width: 49%;
+  float: left;
+  margin-bottom: 50px; }
+
+.elementsForm2 {
+  margin: 0 auto;
+  margin-top: 50px;
   text-align: center; }
+
+.label {
+  float: left; }
+
+textarea {
+  margin: 0 auto;
+  background: #273a71;
+  margin-top: 35px;
+  height: 100px;
+  width: 100%;
+  resize: none; }
+
+.button2 {
+  background: #07acc2;
+  border-bottom: #068b9c 4px solid; }
+  .button2:hover {
+    background: #0bbcd3; }
+
+.links {
+  text-align: center; }
+
+.links > a {
+  margin-left: 55px; }
+
+@media (max-width: 992px) {
+  #header {
+    height: 440px; }
+
+  #content {
+    margin: 0 auto; }
+
+  .elements {
+    margin-left: 25px; }
+
+  textarea {
+    margin: 0 auto;
+    margin-right: 10px; }
+
+  label {
+    margin: 0 auto; }
+
+  .form {
+    padding-top: 50px; } }
+@media (max-width: 768px) {
+  h3 {
+    font-size: 32px; }
+
+  #content {
+    height: 500px; }
+
+  .elements img {
+    height: 125px;
+    width: 100px; }
+
+  .form {
+    float: none; }
+
+  textarea {
+    max-height: 60px;
+    min-height: 60px; }
+
+  .links > a {
+    margin-left: 40px; } }
+@media (max-width: 576px) {
+  .menu {
+    display: none; }
+
+  .menu :first-child {
+    display: block; }
+
+  #content {
+    height: 650px; }
+
+  .elements {
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    text-align: center; }
+
+  button {
+    height: 50px;
+    margin: 25px;
+    padding: 10px;
+    width: 225px;
+    text-align: center; } }
 
 /*# sourceMappingURL=styles.css.map */

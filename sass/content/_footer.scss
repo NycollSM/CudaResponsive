@@ -1,7 +1,59 @@
-#footer {
-    background: #3c5499;
-    height: 450px;
-}
-#footer p {
+#footer{
     text-align: center;
+    height: auto;
+    padding: 55px;
+}
+.form{
+    margin: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+label{
+    margin: 50px;
+    margin-left: 0;
+}
+input{
+    background: #273a71;
+    padding: 10px;
+    height: 25px;
+    width: 80%;
+    border: 0px solid;
+    margin-top: 15px;
+    float: left;
+
+}
+.elementsForm{
+    margin: 0 auto;
+    width: 49%;
+    float: left;
+    margin-bottom: 50px;
+}
+.elementsForm2{
+    margin: 0 auto;
+    margin-top: 50px; 
+    text-align: center;  
+}
+.label{
+    float: left; 
+}
+textarea{
+    margin: 0 auto;
+    background: #273a71;
+    margin-top: 35px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+.button2{
+    background: #07acc2;
+    border-bottom: #068b9c 4px solid;
+    &:hover{
+        background: #0bbcd3;
+    }
+}
+.links{
+    text-align: center; 
+}
+.links > a {
+    margin-left: 55px;
 }
